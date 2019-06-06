@@ -1,0 +1,33 @@
+{
+  "name": "storybook-addon-lang-dir",
+  "version": "1.0.0",
+  "description": "",
+  "main": "register.js",
+  "scripts": {
+    "prepublish": "BABEL_ENV=production node scripts/prepublish.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/qualaroo/storybook-addon-lang-dir.git"
+  },
+  "author": "Jakub Roch",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/qualaroo/storybook-addon-lang-dir/issues"
+  },
+  "homepage": "https://github.com/qualaroo/storybook-addon-lang-dir#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.4.4",
+    "@babel/core": "^7.4.5",
+    "@babel/plugin-proposal-class-properties": "^7.4.4",
+    "@babel/plugin-transform-arrow-functions": "^7.2.0",
+    "@babel/plugin-transform-modules-commonjs": "^7.4.4",
+    "@babel/preset-env": "^7.4.5",
+    "@babel/preset-react": "^7.0.0",
+    "@storybook/addons": "^5.1.1",
+    "@storybook/theming": "^5.1.1",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "shelljs": "^0.8.3"
+  }
+}
