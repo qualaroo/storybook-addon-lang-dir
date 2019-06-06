@@ -4,7 +4,7 @@
   "description": "",
   "main": "register.js",
   "scripts": {
-    "prepublish": "BABEL_ENV=production node scripts/prepare.js"
+    "postinstall": "BABEL_ENV=production node scripts/prepare.js"
   },
   "repository": {
     "type": "git",
