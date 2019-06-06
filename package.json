@@ -4,9 +4,7 @@
   "description": "",
   "main": "register.js",
   "scripts": {
-    "prepare": "BABEL_ENV=production node scripts/prepare.js",
-    "prepublish": "BABEL_ENV=production node scripts/prepare.js",
-    "prepublishOnly": "BABEL_ENV=production node scripts/prepare.js"
+    "prepare": "BABEL_ENV=production node scripts/prepare.js"
   },
   "repository": {
     "type": "git",
